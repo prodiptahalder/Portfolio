@@ -1,0 +1,26 @@
+.header{
+    margin-top:5rem;
+}
+.header_image{
+    width:80%;
+}
+.social_icon{
+    width:4rem;
+}
+.social_icon_nav{
+    width:1.3rem;
+}
+.about_me_body{
+    font-size: 2rem;
+}
+@media (max-width: 560px) {
+    .about_me_body{
+        font-size:1.25rem;
+    }
+    .auto_box{
+        text-align: center;
+    }
+    .projects_box{
+        content-visibility: hidden;
+    }
+}
