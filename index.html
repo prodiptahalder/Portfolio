@@ -19,11 +19,11 @@
         <!-- Navbar -->
         <div  id="navbar">
             <nav class="navbar navbar-expand-lg bg-light fixed-top ">
-                <div class="container-fluid">
-                    <a class="navbar-brand py-0" href="#" style="font-family:Arial, Helvetica, sans-serif;">
-                        <img src="./img/My-Image-removebg-preview.png" alt="" width="24" height="24" class="d-inline-block align-text-top my-auto" style="border-radius: 50%;">
-                        <span class="my-1 mx-2">Prodipta</span>
-                    </a>
+                <div class="container-fluid d-flex align-items-center">
+                    <div class="navbar-brand py-0 d-flex align-items-center" href="#" style="font-family:Arial, Helvetica, sans-serif;">
+                        <img src="./img/My-Image-removebg-preview.png" alt="" width="30" height="30" class="d-inline-block align-text-top my-auto" style="border-radius: 50%;">
+                        <span class="my-1 mx-2">Prodipta Halder</span>
+                    </div>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -37,6 +37,9 @@
                       </li>
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+                      </li>
+                      <li class="nav-item mx-3 hide my-auto">
+                        
                       </li>
                       <li class="nav-item d-flex flex-row justify-content-around">
                         <a class="nav-link" href="https://www.linkedin.com/in/prodipta-halder-5018b91aa/" class="mx-4" target="blank">
@@ -56,37 +59,19 @@
               </nav>
         </div>
         <!-- Header -->
-         <div class="container header" id="header">
-             <div  class="row">
+         <div class="container header my-4" id="header">
+             <div  class="row pb-4">
                  <div class="col-sm-12 col-md-6 col-lg-6 m-auto">
-                    <h1 class="display-1">Hey 👋</h1>
+                    <h1 class="display-1">Hey <span class="wave">👋</span></h1>
                     <h3 class="display-4">I am Prodipta Halder.</h3>
                     <br>
                     <div class="row">
                         <!-- Link to resume -->
                         <div class="col col-md-auto my-auto w-auto">
-                            <a type="button" class="btn btn-success" href="https://drive.google.com/file/d/1d728-fwZZIl3_mXtRL3OUhwa_LZ6SZ53/view?usp=sharing" target="blank">
+                            <a type="button" class="btn btn-success px-4" href="https://drive.google.com/file/d/1d728-fwZZIl3_mXtRL3OUhwa_LZ6SZ53/view?usp=sharing" target="blank">
                                 <h3>View CV</h3>
                             </a>
                         </div>
-                        <!-- Link to Github -->
-                        <!-- <div class="col-md-auto my-auto w-auto">
-                            <a type="button">
-                                <img class="social_icon social_icon_github" src="./img/icons8-github.svg">
-                            </a>
-                        </div> -->
-                        <!-- Link to linkedin -->
-                        <!-- <div class="col-md-auto my-auto w-auto">
-                            <a type="button">
-                                <img class="social_icon social_icon_linkedin" src="./img/icons8-linkedin-circled.svg">
-                            </a>
-                        </div> -->
-                        <!-- Link to leetcode -->
-                        <!-- <div class="col-md-auto my-auto w-auto">
-                            <a type="button">
-                                <img class="social_icon social_icon_linkedin" src="./img/icons8-level-up-your-coding-skills-and-quickly-land-a-job-96.png">
-                            </a>
-                        </div> -->
                     </div>
                     <br>
                  </div>
@@ -95,13 +80,13 @@
                  </div>
              </div>
          </div>
-         <br>
-         <hr class="w-50 m-auto">
-         <br>
+         
+         <hr class="w-50 m-auto my-4">
+         
          <!-- About -->
-         <div class="container" id="aboutme">
+         <div class="container my-4" id="aboutme">
              <div class="w-100 text-center">
-                <h1 class="display-4">About Me</h1>
+                <h1 class="display-1">About Me</h1>
              </div>
              <div class="row">
                  <div class="col-sm-12 col-md-6 col-lg-6 m-auto auto_box">
@@ -109,40 +94,32 @@
                  </div>
                  <div class="col-sm-12 col-md-6 col-lg-6 m-auto">
                     <p class="about_me_body">
-                        I am a MCA final year student at Chandigarh University.
-                        I have worked as a Full Stack Development Intern at Caarya, and freelanced as Web Developer since 2019.
-                        The world of 0's and 1's fascinate me. We can build life changing software solutions using few lines of code. 
+                        I am a Masters of Computer Application(MCA) final year student at Chandigarh University(CU).
+                        I have worked as a full stack development(FSD) Intern at Caarya, and I have been  freelancing as web developer since 2019.
+                        The world of 1's & 0's fascinate me, as we can build life changing software solutions using few lines of code. 
                     </p>
                 </div>
              </div>
          </div>
-         <br>
-         <hr class="w-50 m-auto">
-         <br>
+         <hr class="w-50 m-auto my-4">
          <!-- Projects -->
-         <div class="container" id="projects">
+         <div class="container my-4" id="projects">
             <div class="w-100 text-center">
-               <h1 class="display-4">Projects</h1>
+               <h1 class="display-1">Projects</h1>
             </div>
             <br>
-            <div class="row">
+            <div class="row py-4">
                 <div class="col-sm-12 col-md-6 col-lg-6 m-auto">
-                    <div class="accordion" id="accordionExample">
-                        <div class="card">
-                          <div class="card-header bg-warning" id="headingOne">
-                            <h2 class="mb-0 d-flex justify-content-between">
-                              <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Game Of Life Visualizer
-                              </button>
-                              <a class="btn btn-primary"  target="blank" href="https://agitated-euclid-92de03.netlify.app/">
-                                  View
-                              </a>
-                            </h2>
-                          </div>
-                      
-                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body">
-                                <span class="badge text-bg-success">JavaScript</span><br>
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item ">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button collapsed bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          Game Of Life Visualizer
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                              <span class="badge text-bg-danger text-white">JavaScript</span><br>
                                 "The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970."
                                 Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
 
@@ -152,179 +129,174 @@
                                     <li>Any live cell with more than three live neighbours dies, as if by overpopulation.</li>
                                     <li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
                                 </ul>
-                                
-                                These rules, which compare the behavior of the automaton to real life, can be condensed into the following:
-                                
-                                <ul>
-                                    <li>Any live cell with two or three live neighbours survives.</li>
-                                    <li>Any dead cell with three live neighbours becomes a live cell.</li>
-                                    <li>All other live cells die in the next generation. Similarly, all other dead cells stay dead.</li>
-                                </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card">
-                          <div class="card-header bg-warning" id="headingTwo">
-                            <h2 class="mb-0 d-flex justify-content-between">
-                              <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                GitHub Profile Finder
-                              </button>
-                              <a class="btn btn-primary"  target="blank" href="https://bucolic-sprite-cbdea8.netlify.app/">
+                                <a class="btn btn-success px-4 mt-2"  target="blank" href="https://agitated-euclid-92de03.netlify.app/">
                                     View
                                 </a>
-                            </h2>
-                          </div>
-                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body">
-                             <span class="badge text-bg-success">AJAX(Javascript)</span><br>
-                              This Project uses AJAX to fetch github profile details using Github API for based on username.
-                                You need to enter correct github usernname, and press Enter.
-                            </div>
-                          </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header bg-warning" id="headingEight">
-                              <h2 class="mb-0 d-flex justify-content-between">
-                                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                  CircleSkinCare
-                                </button>
-                                <a class="btn btn-primary"  target="blank" href="https://circleskincare.com/">
-                                      View
-                                  </a>
-                              </h2>
-                            </div>
-                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
-                              <div class="card-body">
-                                <span class="badge text-bg-success">React Js</span><span class="badge text-bg-success">NodeJs</span>
-                                <span class="badge text-bg-success">Mongo DB</span><span class="badge text-bg-success">Express Js</span>
-                                <span class="badge text-bg-success">E-Commerce</span><br>
-                                    This is one of mmy freelancing Projects.
-                                    It is an E-commerce platform with all the basic functions, such as add to cart sort products using filters.
-                                    Thhe stand out feature of the website is it's Skin Quiz which will recommmend you product as per your skin's need.
-                              </div>
-                            </div>
-                          </div>
-                        <div class="card">
-                            <div class="card-header bg-warning" id="headingThree">
-                              <h2 class="mb-0 d-flex justify-content-between">
-                                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  3D Project
-                                </button>
-                                <a class="btn btn-primary"  target="blank" href="https://competent-curie-31f80f.netlify.app/">
-                                      View
-                                  </a>
-                              </h2>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                              <div class="card-body">
-                                <span class="badge text-bg-success">React Js</span><span class="badge text-bg-success">Three Js</span><br>
-                                This is a fun project, it does not serve any purpouse.
-                                Will surely enhannce it and  make something useful out of it.
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header bg-warning" id="headingFour">
-                              <h2 class="mb-0 d-flex justify-content-between">
-                                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                  Weather Forecast Website
-                                </button>
-                                <a class="btn btn-primary"  target="blank" href="https://evening-coast-56737.herokuapp.com/">
-                                      View
-                                  </a>
-                              </h2>
-                            </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                              <div class="card-body">
-                                <span class="badge text-bg-success">React Js</span><span class="badge text-bg-success">Weather Forecast API</span><br>
-                                    This project uses a third party API to fetch weather forecast of a certain city. 
-                                    You need to enter the name of the city and press Enter.
-                                    The website will show you a detail weather forecast of upcoming week.
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header bg-warning" id="headingFive">
-                              <h2 class="mb-0 d-flex justify-content-between">
-                                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                  CryptoCurrency Ticker App
-                                </button>
-                                <a class="btn btn-primary"  target="blank" href="https://tetraunit.netlify.app/">
-                                      View
-                                  </a>
-                              </h2>
-                            </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                              <div class="card-body">
-                                <span class="badge text-bg-success">React Js</span><span class="badge text-bg-success">Binance API</span><br>
-                                    This project uses data from Binance API to display real time data, of different Crypto exchange pairs.
-                                    This Project also provides a calculator to calculate amount of crypto worth with respect to some other crypto.
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header bg-warning" id="headingSix">
-                              <h2 class="mb-0 d-flex justify-content-between">
-                                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                  TinDog
-                                </button>
-                                <a class="btn btn-primary"  target="blank" href="https://62810aaef1045a459cfc86e2--earnest-dango-8cfd18.netlify.app/">
-                                      View
-                                  </a>
-                              </h2>
-                            </div>
-                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                              <div class="card-body">
-                                <span class="badge text-bg-success">HTML</span><span class="badge text-bg-success">CSS</span><br>
-                                    This project is a basic HTML, CSS website; replicating Tinder for Dog.
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card">
-                            <div class="card-header bg-warning" id="headingSeven">
-                              <h2 class="mb-0 d-flex justify-content-between">
-                                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                  Barber
-                                </button>
-                                <a class="btn btn-primary"  target="blank" href="https://prodiptahalder.github.io/The-Barber/">
-                                      View
-                                  </a>
-                              </h2>
-                            </div>
-                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
-                              <div class="card-body">
-                                <span class="badge text-bg-success">HTML</span><span class="badge text-bg-success">CSS</span><br>
-                                    This project is a basic HTML, CSS website.
-                                    A portfolio for Barber.
-                              </div>
-                            </div>
-                          </div>
-                          
                       </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-item ">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                          GitHub Profile Finder
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                              <span class="badge text-bg-danger text-white">AJAX(Javascript)</span><br>
+                              <div>This Project uses AJAX to fetch github profile details using Github API for based on username.
+                                You need to enter correct github usernname, and press Enter.</div>
+                                <a class="btn btn-success px-4 mt-2"  target="blank" href="https://bucolic-sprite-cbdea8.netlify.app/">
+                                    View
+                                </a>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-item ">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                          CircleSkinCare
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                                <span class="badge text-bg-danger text-white">React Js</span>
+                                <span class="badge text-bg-danger text-white">NodeJs</span>
+                                <span class="badge text-bg-danger text-white">Mongo DB</span>
+                                <span class="badge text-bg-danger text-white">Express Js</span>
+                                <span class="badge text-bg-danger text-white">E-Commerce</span><br>
+                                    <div>This is one of mmy freelancing Projects.
+                                    It is an E-commerce platform with all the basic functions, such as add to cart sort products using filters.
+                                    The stand out feature of the website is it's Skin Quiz which will recommend you product as per your skin's need.</div>
+                                    <a class="btn btn-success px-4 mt-2"  target="blank" href="https://circleskincare.com/">
+                                        View
+                                    </a>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-item ">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
+                          3D Project
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+                                <span class="badge text-bg-danger text-white">React Js</span>
+                                <span class="badge text-bg-danger text-white">Three Js</span><br>
+                                <div>This is a fun project, it does not serve any purpouse.
+                                Will surely enhannce it and  make something useful out of it.</div>
+                                <a class="btn btn-success px-4 mt-2"  target="blank" href="https://competent-curie-31f80f.netlify.app/">
+                                    View
+                                </a>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-item ">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                        <button class="accordion-button collapsed bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
+                          Weather Forecast Website
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                        <div class="accordion-body">
+                                    <span class="badge text-bg-danger text-white">React Js</span>
+                                    <span class="badge text-bg-danger text-white">Weather Forecast API</span><br>
+                                    <div>This project uses a third party API to fetch weather forecast of a certain city. 
+                                    You need to enter the name of the city and press Enter.
+                                    The website will show you a detail weather forecast of upcoming week.</div>
+                                    <a class="btn btn-success px-4 mt-2"  target="blank" href="https://evening-coast-56737.herokuapp.com/">
+                                        View
+                                    </a>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-item ">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                        <button class="accordion-button collapsed bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true" aria-controls="panelsStayOpen-collapseSix">
+                          CryptoCurrency Ticker App
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                        <div class="accordion-body">
+                          <span class="badge text-bg-danger text-white">React Js</span>
+                          <span class="badge text-bg-danger text-white">Binance API</span><br>
+                          <div>This project uses data from Binance API to display real time data, of different Crypto exchange pairs.
+                          This Project also provides a calculator to calculate amount of crypto worth with respect to some other crypto.</div>
+                          <a class="btn btn-success px-4 mt-2"  target="blank" href="https://tetraunit.netlify.app/">
+                                View
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-item ">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                        <button class="accordion-button collapsed bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="true" aria-controls="panelsStayOpen-collapseSeven">
+                          TinDog
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                        <div class="accordion-body">
+                          <span class="badge text-bg-danger text-white">HTML</span>
+                          <span class="badge text-bg-danger text-white">CSS</span><br>
+                          <div>This project is a basic HTML, CSS website; replicating Tinder for Dog.</div>
+                          <a class="btn btn-success px-4 mt-2"  target="blank" href="https://62810aaef1045a459cfc86e2--earnest-dango-8cfd18.netlify.app/">
+                                View
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="accordion-item ">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                        <button class="accordion-button collapsed bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
+                          Barber
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
+                        <div class="accordion-body">
+                          <span class="badge text-bg-danger text-white">HTML</span>
+                          <span class="badge text-bg-danger text-white">CSS</span><br>
+                          <div>This project is a basic HTML, CSS website.
+                          A portfolio for Barber.</div>
+                          <a class="btn btn-success px-4 mt-2"  target="blank" href="https://prodiptahalder.github.io/The-Barber/">
+                                View
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                  </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 projects_box">
                     <img src="./img/working-with-laptop.svg" alt="coder-with-mac" class="header_image m-auto">
                 </div>
             </div>
          </div>
-         <br>
-         <br>
          <!-- Footer -->
          <div class="container-fluid bg-dark  text-white" id="footer" >
             <div class="w-100 py-4 footer container-fluid">
-                <div class="row">
-                    <div  class="col-sm-12 col-md-6 col-lg-8">
-                        <h3 class="display-3">Footer</h3>
+                <div class="row d-flex align-items-center">
+                    <div  class="col-sm-12 col-md-4 col-lg-4 d-flex align-items-center justify-content-start py-2 just_center">
+                        <img src="./img/My-Image-removebg-preview.png" alt="" width="90" height="90" class="d-inline-block align-text-top my-auto" style="border-radius: 50%;">
+                        <h3 class="display-6 mx-2 hide">Prodipta Halder</h3>
                     </div>
-                    <br>
-                    <div class=" my-auto col-sm-12 col-md-6 col-lg-4 d-flex flex-col justify-content-around">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link active" aria-current="page" href="#aboutme">About</a>
-                            <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
-                            <a href="mailto: halder.prodipta9500@gmail.com"><img src="./img/email.svg" alt="" width="30" height="30" ></a>
-                            <a href="tel: 6290883707"><img src="./img/phone.svg" alt="" width="30" height="30" ></a>
+                    <div class=" my-auto col-sm-12 col-md-4 col-lg-4 d-flex flex-col align-items-center justify-content-center py-2 just_center" style="font-size:1.5rem">
+                                <a class="nav-link active mx-3" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active mx-3" aria-current="page" href="#aboutme">About</a>
+                                <a class="nav-link active mx-3" aria-current="page" href="#projects">Projects</a>
+                    </div>
+                    <div class=" my-auto col-sm-12 col-md-4 col-lg-4 d-flex flex-col align-items-center justify-content-end py-2 just_center">
+                            <a class="nav-link active mx-2" href="mailto: halder.prodipta9500@gmail.com"><img src="./img/email.svg" alt="" width="30" height="30" ></a>
+                            <a class="nav-link active mx-2" href="tel: 6290883707"><img src="./img/phone.svg" alt="" width="30" height="30" ></a>
                 </div>
-                <div class="col-12 text-center">Copyright &copy; 2022</div>
+                <div class="col-12 text-center pt-4">Copyright &copy; 2022</div>
             </div>
          </div>
     </div>
