@@ -27,6 +27,11 @@
     transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
     display: inline-block;
   }
+  .responsive_iframe{
+      width: 100%;
+      overflow: hidden;
+      border: 2px solid #CFF4CF;
+  }
   
   @keyframes wave-animation {
       0% { transform: rotate( 0.0deg) }
