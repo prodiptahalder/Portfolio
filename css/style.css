@@ -60,3 +60,60 @@
         justify-content: center!important;
     }
 }
+
+
+/* TIMELINE CSS */
+.timeline {
+    margin: 0 auto;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    font-family: "Fira Sans", sans-serif;
+    color: #009578;
+  }
+  
+  .timeline__component {
+    margin: 0 0.5rem 1rem 0.5rem;
+  }
+  
+  .timeline__component--bg {
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  /* LEAVE TILL LAST */
+  .timeline__component--bottom {
+    margin-bottom: 0;
+  }
+  
+  .timeline__middle {
+    position: relative;
+    background: #009578;
+  }
+  
+  .timeline__point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1rem;
+    height: 1rem;
+    background: #009578;
+    border-radius: 50%;
+  }
+  
+  /* LEAVE TILL LAST */
+  .timeline__point--bottom {
+    top: initial;
+    bottom: 0;
+  }
+  
+  .timeline__date--right {
+    text-align: right;
+  }
+
+  .timeline__component .accordion-item{
+      border: 0;
+  }
+  
